@@ -1,0 +1,32 @@
+#footer{
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 4px 6px 0px black, 0px 4px 0px 0px white;
+}
+.fone{
+    width: 40%;
+    border-right: 1px solid gray;
+}
+.fonedes{
+    margin: 4%;
+}
+.fonedes div{
+    margin: 3%;
+    
+}
+.fonedes div h3{
+    cursor: pointer;
+    
+}
+.ftwo{
+    width:30%;
+    border-right: 1px solid gray;
+}
+.fthree{
+    width:30%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="<%= assestPath('css/shopcomPage.css') %>">
+<div id="navbar">
+    <div><span><h1><i class="fa-solid fa-bag-shopping"></i> Shopcom</h1></span></div>
+    <div>
+        <ul>
+            <a href="/shopcomPage"  style="text-decoration: none; color:black"><li>Home</li></a>
+            <li><div class="dropdown"><h3><%= user.name %> <i class='fas fa-angle-down' style='font-size:16px'></i></h3>
+                <div class="dropdown-content">
+                    <a href="/profile">Profile</a>
+                    <a href="/help">Help & Support</a>
+                    <a href="/signout">Logout (<%= user.name %>)</a>
+                    </div>
+            </div></li>
+            <a href="/ads"  style="text-decoration: none; color:black"><li>Your Ads</li></a>
+            <a href="/cart"  style="text-decoration: none; color: black;"><li>Cart</li></a>
+        </ul>
+    </div>
+</div>

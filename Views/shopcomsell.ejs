@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopcom</title>
+        <link rel="stylesheet" href="<%= assestPath('css/shopcomsell.css') %>">
+    </head>
+    <body>
+        <div id="ll">
+            <div id="part">
+                <div id="header">
+                    <div class="header_div"><h1>Item Details</h1></div>
+                </div>
+                <div id="form_bar">
+                    <form action="/additem" method="POST" enctype="multipart/form-data">
+                        <div id="des_bar">
+                            <label for="desc">BRAND</label><br>
+                            <input type="text" id="desc" name="brand" placeholder="Enter Item Brand *" required>
+                        </div>
+                        <div id="des_bar">
+                            <label for="desc">TITLE</label><br>
+                            <input type="text" id="desc" name="title" placeholder="Mention the key features of your item (eg brand, model, age, type) *" required>
+                        </div>
+                        <div id="Two_input">
+                            <div id="one">
+                                <label for="cate">CATEGORY</label><br>
+                                <select id="cate" name="coption">
+                                    <option value="OTHER">Choose a Category</option>
+                                    <option value="CARS">CAR</option>
+                                    <option value="MOBILES">MOBILE</option>
+                                    <option value="FURNITURE">FURNITURE</option>
+                                    <option value="FASHION">FASHION</option>
+                                    <option value="BIKES">BIKE</option>
+                                    <option value="SHOES">SHOES</option>
+                                    <option value="TOYS">TOYS</option>
+                                    <option value="BOOKS & SPORTS">BOOKS & SPORTS</option>
+                                    <option value="ELECTRONICS & APPLIANCES">ELECTRONICS & APPLIANCES</option>
+                                    <option value="COMMERICL VEHICLES & SPARES">COMMERICL VEHICLES & SPARES</option>
+                                    <option value="OTHER">Other</option>
+                                </select>
+                            </div>
+                            <div id="two">
+                                <label for="price">PRICE</label><br>
+                                <input type="number" id="dat" name="price" min=0 required> 
+                            </div>
+                        </div>
+                        <div id="des_bar">
+                            <label for="desc">DESCRIPTION</label><br>
+                            <textarea type="text" id="desc" name="description" placeholder="Describe what you are selling *" required></textarea>
+                        </div>
+                        <div id="des_bar">
+                            <label for="desc">Upload Image</label><br>
+                            <input type="file" id="desc" name="testimage" required>
+                        </div>
+
+                        <div id="btn">
+                            <div class="btn1">
+                                <div><button>ADD TO SELL</button></div>
+                                <div><a href="/cancel"><div id="btn2"><div class="button2">Cancel</div></div></a></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>      
+            </div>  
+        </div>
+    </body>
+</html>

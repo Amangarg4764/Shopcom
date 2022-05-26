@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#adsCart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 3vh 6vw;
+    width: 86vw;
+    height: fit-content;
+}
+#ads_Cart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right:12vw;
+}
+.ads_card{
+    margin: 0vh 2vw 2vh 0vw;
+    width: 15rem;
+    
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px 0px black, 0px 4px 0px 0px gainsboro;
+    
+}
+.ads_card_img{
+    position: relative;
+    background-color: black;
+    margin: 3px;
+    width: 14.5rem;
+    height: 12rem;
+}
+.ads_card_des{
+    margin: 4px;
+    width: 14.5rem;
+    display: block;
+}
+img{
+    height: 12rem;
+    width: 14.5rem;
+    z-index: -1;
+}
+.box_ed{
+    top:3px;
+    right: 3px;
+    position: absolute;
+    display: flex;
+}
+.box_ed a i{
+    font-size: x-large;
+    color:red;
+    margin-left: 5px;
+    border-radius: 20%;
+    z-index: 1;
+}
+.btn_delete a i:hover{
+    background-color: white;
+    
+}
+.btn_edit i{
+    font-size: x-large;
+    color:blue;
+    border-radius: 20%;
+    z-index: 1;
+    cursor: pointer;
+}
+.btn_edit a i:hover{
+    background-color: white;
+}
+.ads_card span{
+    font-style: normal;
+    font-weight: 200 !important;
+    font-size: 1rem;
+    color:gray;
+}
+.ads_card_des_hide{
+    margin: 4px;
+    width: 14.5rem;
+    display: hidden;
+}
+#all{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: space-between;
+}

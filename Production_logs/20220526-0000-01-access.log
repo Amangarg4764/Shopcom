@@ -1,0 +1,340 @@
+::1 - - [25/May/2022:16:48:42 +0000] "GET /shopcomPage HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:48:42 +0000] "GET / HTTP/1.1" 200 140162 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:48:44 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:48:45 +0000] "GET /user/auth/google/callback?code=4%2F0AX4XfWinUy3ufp8NI3JzuD5wdjhno0JdFzcd-mSm7SyrYBNf1fSsknABBx2UWKPf5o4v5Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&hd=chitkara.edu.in&prompt=none HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:48:45 +0000] "GET / HTTP/1.1" 302 68 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:48:45 +0000] "GET /shopcomPage HTTP/1.1" 200 28003 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:49:17 +0000] "GET / HTTP/1.1" 200 140162 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:49:18 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:49:19 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:49:20 +0000] "GET /user/auth/google/callback?code=4%2F0AX4XfWjZPFDBzP907HlaqQCHbqXuMBwtR2iGSuWHfxE4qLMs-yaz7aAlNjZNwK0gQvovkA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:49:20 +0000] "GET / HTTP/1.1" 302 68 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:49:20 +0000] "GET /shopcomPage HTTP/1.1" 200 35977 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:49:57 +0000] "GET /profile HTTP/1.1" 200 5998 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:16:49:59 +0000] "GET /help HTTP/1.1" 200 5806 "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+[0mGET /shopcomPage [36m302[0m 13.008 ms - 46[0m
+[0mGET / [32m200[0m 24.319 ms - 140162[0m
+[0mGET /user/auth/google [36m302[0m 4.056 ms - 0[0m
+[0mGET /user/auth/google/callback?code=4%2F0AX4XfWgEaqR93FNdfzJP9hGnt-p9D00clpAJ6YTYiaf72vKINq4db7-ZAPJibwhxpUWjVg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&hd=chitkara.edu.in&prompt=none [36m302[0m 597.743 ms - 46[0m
+[0mGET / [36m302[0m 1.957 ms - 68[0m
+[0mGET /shopcomPage [32m200[0m 130.161 ms - 28003[0m
+[0mGET /shopcomPage [32m200[0m 46.126 ms - 27731[0m
+[0mGET /css/shopcomPage.css [33m404[0m 4.042 ms - 158[0m
+[0mGET /javascript/category.js [33m404[0m 3.096 ms - 161[0m
+[0mGET /css/shopcombucket.css [33m404[0m 1.102 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.743 ms - 157[0m
+[0mGET /css/footer.css [33m404[0m 0.712 ms - 153[0m
+[0mGET /css/shopcomPage.css [33m404[0m 0.618 ms - 158[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.583 ms - 160[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.873 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 1.350 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.730 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.688 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.716 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 1.020 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.535 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.457 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.517 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.501 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.616 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.833 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.511 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.561 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.568 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.554 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.506 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.556 ms - 157[0m
+[0mGET /css/shopcomPage.css [33m404[0m 0.663 ms - 158[0m
+[0mGET /css/footer.css [33m404[0m 0.602 ms - 153[0m
+[0mGET /shopcomPage [36m304[0m 25.805 ms - -[0m
+[0mGET /css/shopcomPage.css [33m404[0m 1.661 ms - 158[0m
+[0mGET /javascript/category.js [33m404[0m 0.575 ms - 161[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.820 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.537 ms - 157[0m
+[0mGET /css/footer.css [33m404[0m 0.540 ms - 153[0m
+[0mGET /css/shopcomPage.css [33m404[0m 1.026 ms - 158[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.638 ms - 160[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.544 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.613 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.522 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.538 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.518 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.563 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.539 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.577 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.547 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.523 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.487 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.639 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.531 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.580 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 3.035 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.474 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.466 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.497 ms - 157[0m
+[0mGET /css/shopcomPage.css [33m404[0m 0.452 ms - 158[0m
+[0mGET /css/footer.css [33m404[0m 0.472 ms - 153[0m
+[0mGET /shopcomPage [36m304[0m 28.501 ms - -[0m
+[0mGET /css/shopcomPage.css [33m404[0m 0.861 ms - 158[0m
+[0mGET /css/shopcombucket.css [33m404[0m 2.038 ms - 160[0m
+[0mGET /javascript/category.js [33m404[0m 1.034 ms - 161[0m
+[0mGET /javascript/like.js [33m404[0m 0.751 ms - 157[0m
+[0mGET /css/footer.css [33m404[0m 0.603 ms - 153[0m
+[0mGET /css/shopcomPage.css [33m404[0m 0.817 ms - 158[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.728 ms - 160[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.580 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.709 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.704 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.587 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.659 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.730 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.767 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.782 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.751 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.722 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.540 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.567 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.539 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.739 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.750 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.947 ms - 157[0m
+[0mGET /css/shopcombucket.css [33m404[0m 0.950 ms - 160[0m
+[0mGET /javascript/like.js [33m404[0m 0.948 ms - 157[0m
+[0mGET /css/shopcomPage.css [33m404[0m 1.033 ms - 158[0m
+[0mGET /css/footer.css [33m404[0m 1.242 ms - 153[0m
+[0mGET /shopcomPage [36m304[0m 101.901 ms - -[0m
+[0mGET /shopcomPage [36m304[0m 65.868 ms - -[0m
+[0mGET /shopcomPage [36m304[0m 26.267 ms - -[0m
+[0mGET /shopcomPage [36m304[0m 25.888 ms - -[0m
+[0mGET /shopcomPage [36m304[0m 31.480 ms - -[0m
+[0mGET /shopcomPage [36m304[0m 25.589 ms - -[0m
+[0mGET /shopcomPage [36m304[0m 48.549 ms - -[0m
+[0mGET /shopcomPage [36m304[0m 32.629 ms - -[0m
+[0mGET /shopcomPage [32m200[0m 48.124 ms - 27731[0m
+[0mGET /shopcomPage [36m304[0m 184.181 ms - -[0m
+[0mGET /shopcomPage [36m304[0m 37.540 ms - -[0m
+::1 - - [25/May/2022:17:08:39 +0000] "GET /shopcomPage HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:08:39 +0000] "GET / HTTP/1.1" 200 140162 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:08:39 +0000] "GET /css/shopcomlogin.css HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:08:39 +0000] "GET /css/login_animation.css HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:08:51 +0000] "GET /css/shopcomlogin.css HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:08:51 +0000] "GET /css/login_animation.css HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:09:01 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:09:01 +0000] "GET /css/shopcomlogin.css HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:09:01 +0000] "GET /css/login_animation.css HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:11:34 +0000] "GET / HTTP/1.1" 500 2422 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:12:41 +0000] "GET / HTTP/1.1" 500 2423 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:12:44 +0000] "GET / HTTP/1.1" 500 2423 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:13:08 +0000] "GET / HTTP/1.1" 200 140151 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:13:09 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:13:09 +0000] "GET /css/login_animation.css HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:14:28 +0000] "GET / HTTP/1.1" 200 140164 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:14:28 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:14:29 +0000] "GET /assestPath('css/login_animation.css') HTTP/1.1" 404 184 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:15:16 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:15:17 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:15:17 +0000] "GET /assestPath('css/login_animation.css') HTTP/1.1" 404 184 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:15:19 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:15:20 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:15:20 +0000] "GET /assestPath('css/login_animation.css') HTTP/1.1" 404 184 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+[0mGET / [32m200[0m 32.766 ms - 140174[0m
+[0mGET /assestPath('css/login_animation.css') [33m404[0m 12.412 ms - 184[0m
+[0mGET /assestPath('css/login_animation.css') [33m404[0m 4.899 ms - 184[0m
+[0mGET / [32m200[0m 11.461 ms - 140160[0m
+[0mGET /user/auth/google [36m302[0m 4.793 ms - 0[0m
+[0mGET /user/auth/google/callback?code=4%2F0AX4XfWiCzaVmkd-bEQBJyLXKDwRqUzvZ06wAxFK4WdQ9NdF5l2u0OAlNNaYx8KqaknoOjA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&hd=chitkara.edu.in&prompt=none [36m302[0m 589.334 ms - 46[0m
+[0mGET / [36m302[0m 2.126 ms - 68[0m
+[0mGET /shopcomPage [32m200[0m 92.853 ms - 28003[0m
+::1 - - [25/May/2022:17:18:40 +0000] "GET /shopcomPage HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:18:41 +0000] "GET / HTTP/1.1" 200 140137 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:18:42 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:18:42 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:19:23 +0000] "GET / HTTP/1.1" 200 140157 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:19:24 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:19:24 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:19:46 +0000] "GET / HTTP/1.1" 200 140127 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:20:25 +0000] "GET / HTTP/1.1" 200 140157 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:20:25 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:20:26 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:21:42 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:21:43 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:21:43 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::ffff:127.0.0.1 - - [25/May/2022:17:22:00 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::ffff:127.0.0.1 - - [25/May/2022:17:22:01 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::ffff:127.0.0.1 - - [25/May/2022:17:22:02 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:22:15 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:22:16 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:22:16 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:22:46 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:22:46 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:22:47 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:23:33 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:23:33 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:23:34 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+[0mGET / [32m200[0m 26.174 ms - 140190[0m
+[0mGET / [32m200[0m 15.276 ms - 140191[0m
+[0mGET / [36m304[0m 12.476 ms - -[0m
+[0mGET / [32m200[0m 46.665 ms - 140190[0m
+::1 - - [25/May/2022:17:27:19 +0000] "GET / HTTP/1.1" 200 140226 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:27:55 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:42 +0000] "GET / HTTP/1.1" 200 140184 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:45 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:47 +0000] "GET /user/auth/google/callback?code=4%2F0AX4XfWjQ8IL8H3Xh5dw2MdIMkzHTbwXVPlKQ5bezCUozq3Md4YmO1qBbB77k3zsYer88yw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&hd=chitkara.edu.in&prompt=none HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:47 +0000] "GET / HTTP/1.1" 302 68 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:47 +0000] "GET /shopcomPage HTTP/1.1" 200 28003 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:48 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:48 +0000] "GET /javascript/category.js HTTP/1.1" 404 161 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:48 +0000] "GET /css/shopcombucket.css HTTP/1.1" 404 160 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:48 +0000] "GET /javascript/like.js HTTP/1.1" 404 157 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:48 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:49 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:49 +0000] "GET /css/shopcombucket.css HTTP/1.1" 404 160 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:50 +0000] "GET /css/shopcombucket.css HTTP/1.1" 404 160 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:51 +0000] "GET /javascript/like.js HTTP/1.1" 404 157 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:51 +0000] "GET /css/shopcombucket.css HTTP/1.1" 404 160 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:52 +0000] "GET /javascript/like.js HTTP/1.1" 404 157 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:52 +0000] "GET /css/shopcombucket.css HTTP/1.1" 404 160 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:53 +0000] "GET /javascript/like.js HTTP/1.1" 404 157 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:54 +0000] "GET /css/shopcombucket.css HTTP/1.1" 404 160 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:54 +0000] "GET /javascript/like.js HTTP/1.1" 404 157 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:55 +0000] "GET /css/shopcombucket.css HTTP/1.1" 404 160 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:56 +0000] "GET /javascript/like.js HTTP/1.1" 404 157 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:56 +0000] "GET /css/shopcombucket.css HTTP/1.1" 404 160 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:57 +0000] "GET /javascript/like.js HTTP/1.1" 404 157 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:57 +0000] "GET /css/shopcombucket.css HTTP/1.1" 404 160 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:58 +0000] "GET /javascript/like.js HTTP/1.1" 404 157 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:59 +0000] "GET /css/shopcombucket.css HTTP/1.1" 404 160 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:28:59 +0000] "GET /javascript/like.js HTTP/1.1" 404 157 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:29:00 +0000] "GET /css/shopcombucket.css HTTP/1.1" 404 160 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:29:00 +0000] "GET /javascript/like.js HTTP/1.1" 404 157 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:29:01 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:29:02 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:29:55 +0000] "GET /shopcomPage HTTP/1.1" 200 27951 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:29:55 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:29:55 +0000] "GET /javascript/category.js HTTP/1.1" 404 161 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:29:56 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:29:56 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:29:57 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:29:58 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:30:01 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:30:02 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:30:02 +0000] "GET /javascript/category.js HTTP/1.1" 404 161 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:30:02 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:30:03 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:30:04 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:30:04 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:30:35 +0000] "POST /likes/toggle/?_id=6270cb7021f8b7d90e847f37&type=itemsdetails HTTP/1.1" 200 58 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:30:42 +0000] "POST /likes/toggle/?_id=6270cb7021f8b7d90e847f37&type=itemsdetails HTTP/1.1" 200 57 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:30:42 +0000] "POST /likes/toggle/?_id=6270cb7021f8b7d90e847f37&type=itemsdetails HTTP/1.1" 200 57 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:32:12 +0000] "GET /shopcomPage HTTP/1.1" 200 27962 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:32:13 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:32:13 +0000] "GET /javascript/category.js HTTP/1.1" 404 161 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:32:13 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:32:14 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:32:15 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:32:58 +0000] "GET /shopcomPage HTTP/1.1" 200 27973 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:32:59 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:32:59 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:33:00 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:33:00 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:34:08 +0000] "GET /shopcomPage HTTP/1.1" 200 27984 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:34:09 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:34:10 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:34:54 +0000] "GET /shopcomPage HTTP/1.1" 200 27995 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:34:55 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:34:56 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:35:46 +0000] "GET /shopcomPage HTTP/1.1" 200 28006 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:35:47 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:36:39 +0000] "GET /ads HTTP/1.1" 200 23468 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:36:45 +0000] "GET /cart HTTP/1.1" 200 8400 "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:36:45 +0000] "GET /css/cartpage.css HTTP/1.1" 404 155 "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:36:47 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:36:48 +0000] "GET /css/shopcomPage.css HTTP/1.1" 404 158 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:36:52 +0000] "GET /sellBucket HTTP/1.1" 304 - "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:36:52 +0000] "GET /css/shopcomsell.css HTTP/1.1" 404 158 "http://localhost:8000/sellBucket" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:40:16 +0000] "GET /sellBucket HTTP/1.1" 304 - "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:40:16 +0000] "GET /css/shopcomsell.css HTTP/1.1" 404 158 "http://localhost:8000/sellBucket" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:40:20 +0000] "GET /cancel HTTP/1.1" 302 68 "http://localhost:8000/sellBucket" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:40:21 +0000] "GET /shopcomPage HTTP/1.1" 200 28017 "http://localhost:8000/sellBucket" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:40:58 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/sellBucket" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:41:02 +0000] "GET /sellBucket HTTP/1.1" 200 3625 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:42:30 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/sellBucket" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:42:33 +0000] "GET /signout HTTP/1.1" 302 46 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:42:33 +0000] "GET / HTTP/1.1" 200 140471 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:42:42 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:42:43 +0000] "GET /user/auth/google/callback?code=4%2F0AX4XfWhnGjSHx9m91WBiHAMdno9LoXr4M0vfOt0ra9st18fds0qtqWkjSq1u4j5fCM9mkw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=chitkara.edu.in&prompt=none HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:42:43 +0000] "GET / HTTP/1.1" 302 68 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:42:43 +0000] "GET /shopcomPage HTTP/1.1" 200 28289 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:42:58 +0000] "GET /ads HTTP/1.1" 304 - "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:42:59 +0000] "GET /cart HTTP/1.1" 200 8411 "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:02 +0000] "GET /cart/addtocarttodelete/?id=6270c7e121f8b7d90e847ee4 HTTP/1.1" 302 96 "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:02 +0000] "GET /cart HTTP/1.1" 200 7592 "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:08 +0000] "GET /ads HTTP/1.1" 304 - "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:10 +0000] "GET /sellBucket HTTP/1.1" 304 - "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:11 +0000] "GET /cancel HTTP/1.1" 302 68 "http://localhost:8000/sellBucket" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:11 +0000] "GET /shopcomPage HTTP/1.1" 200 28017 "http://localhost:8000/sellBucket" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:16 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:31 +0000] "GET /ads HTTP/1.1" 304 - "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:34 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:47 +0000] "GET /profile HTTP/1.1" 200 5994 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:49 +0000] "GET /help HTTP/1.1" 200 6522 "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:53 +0000] "GET /signout HTTP/1.1" 302 46 "http://localhost:8000/help" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:53 +0000] "GET / HTTP/1.1" 200 140471 "http://localhost:8000/help" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:55 +0000] "GET /signup HTTP/1.1" 200 141426 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:57 +0000] "GET / HTTP/1.1" 200 140184 "http://localhost:8000/signup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:43:59 +0000] "GET /signup HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:00 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:8000/signup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:00 +0000] "GET /user/auth/google/callback?code=4%2F0AX4XfWg1XzgjgdLuSadD2Mi8mrZ3T9HHMTReaXDWAiL4kpqnWON3cOtHiLGbn_UgOX78Xg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&hd=chitkara.edu.in&prompt=none HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:00 +0000] "GET / HTTP/1.1" 302 68 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:01 +0000] "GET /shopcomPage HTTP/1.1" 200 28289 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:04 +0000] "GET /cart/addtocart/?id=6270c7e121f8b7d90e847ee4 HTTP/1.1" 302 110 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:04 +0000] "GET /shopcomPage HTTP/1.1" 200 28287 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:07 +0000] "GET /cart HTTP/1.1" 200 8411 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:12 +0000] "GET /ads HTTP/1.1" 304 - "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:13 +0000] "GET /cart HTTP/1.1" 304 - "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:30 +0000] "GET /ads HTTP/1.1" 304 - "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:31 +0000] "GET /shopcomPage HTTP/1.1" 200 28017 "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:41 +0000] "GET /profile HTTP/1.1" 304 - "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:44 +0000] "GET /help HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:46 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/help" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:49 +0000] "GET /ads HTTP/1.1" 304 - "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:52 +0000] "GET /profile HTTP/1.1" 304 - "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:44:52 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:45:02 +0000] "GET /ads HTTP/1.1" 304 - "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:45:05 +0000] "GET /profile HTTP/1.1" 304 - "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:47:39 +0000] "GET /signout HTTP/1.1" 302 46 "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:17:47:39 +0000] "GET / HTTP/1.1" 200 140471 "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:07 +0000] "GET / HTTP/1.1" 200 140184 "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:10 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:11 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:11 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:11 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:12 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:12 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:12 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:12 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:13 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:13 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:13 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:13 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:13 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:13 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:16 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:17 +0000] "GET /user/auth/google/callback?code=4%2F0AX4XfWjwMBCcNRCDO9PIOJk9rUj72fYQekPwmvGH72rLzyeWNcB3jhUD7XZwwjZT9y6-KA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=chitkara.edu.in&prompt=none HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:17 +0000] "GET / HTTP/1.1" 302 68 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:17 +0000] "GET /shopcomPage HTTP/1.1" 200 28289 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:21 +0000] "GET /ads HTTP/1.1" 304 - "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:57 +0000] "GET /shopcomPage HTTP/1.1" 200 28017 "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:21:58 +0000] "GET /ads HTTP/1.1" 304 - "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:22:01 +0000] "GET /sellBucket HTTP/1.1" 304 - "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:22:14 +0000] "POST /additem HTTP/1.1" 302 68 "http://localhost:8000/sellBucket" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:22:14 +0000] "GET /shopcomPage HTTP/1.1" 200 28374 "http://localhost:8000/sellBucket" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:22:19 +0000] "GET /ads HTTP/1.1" 200 27035 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:22:53 +0000] "GET /ads/deleteAds/?id=628e73d6cead18ee9abf1994 HTTP/1.1" 302 94 "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:22:53 +0000] "GET /ads HTTP/1.1" 200 23733 "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:23:11 +0000] "GET /shopcomPage HTTP/1.1" 200 28017 "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:23:12 +0000] "GET /ads HTTP/1.1" 200 23468 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:23:15 +0000] "GET /cart HTTP/1.1" 304 - "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:23:16 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:23:37 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [25/May/2022:18:23:52 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"

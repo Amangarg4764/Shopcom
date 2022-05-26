@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopcom</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" integrity="sha512-0p3K0H3S6Q4bEWZ/WmC94Tgit2ular2/n0ESdfEX8l172YyQj8re1Wu9s/HT9T/T2osUw5Gx/6pAZNk3UKbESw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js" integrity="sha512-lOrm9FgT1LKOJRUXF3tp6QaMorJftUjowOWiDcG5GFZ/q7ukof19V0HKx/GWzXCdt9zYju3/KhBNdCLzK8b90Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="<%= assestPath('css/shopcomPage.css') %>">
+    </head>
+    <body>
+        <div id="all">  
+        <div><%- include('_navbar')%></div>
+        <!----------------------------- categort you want to search--------------------------------------------------------->
+        <div><%- include('_category')%> </div>
+        <!-------------------------------------------Display all items, block for selling item ------------------------------------>
+        <div>
+        <div id="main">
+            <div id="SellingitemsBucket">
+                <div id="uldiv">
+                    <ul type="none">
+                        <% for(i of postdata) { %>
+                            <% var id1=user._id; %>
+                            <% var id2=i.activeuser %>
+                            <% if(id1.toString() != id2.toString()){ %>
+                                <li class="loadmore" style="display:none">
+                                   <%- include('_carttohomepage') %>
+                                </li>
+                        <%}}%>
+                    </ul>
+                </div>     
+                <div class="btnmore">
+                    More Products..
+                </div>    
+            </div>
+            <div id="another">
+                <%- include('_sellblock') %>
+            </div>
+        </div>
+    </div>
+        <!--------------Footer ------------------------------------------------------------------------------------>
+        <div><%- include('_footer') %></div>
+        </div>
+        <script>
+           <% if(flash.success && flash.success.length > 0 ){ %> 
+                new Noty({
+                    theme:'relax',
+                    text:"<%= flash.success %>",
+                    type:'success',
+                    layout:"topRight",
+                    timeout:1500
+                }).show();
+           <% } %> 
+           <% if(flash.error && flash.error.length > 0 ){ %> 
+                 new Noty({
+                     theme:'relax',
+                     text:"<%= flash.error %>",
+                     type:'error',
+                     layout:"topRight",
+                     timeout:1500
+                 }).show();
+            <% } %> 
+            $('.loadmore').slice(0,7).show();
+            $('.btnmore').on("click",function(){
+                $(".loadmore:hidden").slice(0,5).slideDown();
+                if($(".loadmore:hidden").length==0){
+                    $('.btnmore').hide();
+                }
+            });
+        </script>    
+    </body>
+</html>

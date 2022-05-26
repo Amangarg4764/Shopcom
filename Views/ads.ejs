@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopcom</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" integrity="sha512-0p3K0H3S6Q4bEWZ/WmC94Tgit2ular2/n0ESdfEX8l172YyQj8re1Wu9s/HT9T/T2osUw5Gx/6pAZNk3UKbESw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js" integrity="sha512-lOrm9FgT1LKOJRUXF3tp6QaMorJftUjowOWiDcG5GFZ/q7ukof19V0HKx/GWzXCdt9zYju3/KhBNdCLzK8b90Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="<%= assestPath('css/adspage.css') %>">
+    </head>
+    <body>
+        <div id="all">
+        <div><%- include('_navbar')%></div>
+        <div>
+        <div id="adsCart">
+            <div id="ads_Cart">
+                <% for(i of postdata) {%>
+                    <div class="ads_card">
+                        <div class="ads_card_img" >
+                            <img src="<%= i.image %>"  >
+                            <div class="box_ed">
+                                <div class="btn_edit" onclick="hidden_data('<%= i.id%>')"><i class="fas fa-edit"></i></div>
+                                <div class="btn_delete"><a href="/ads/deleteAds/?id=<%= i._id%>"><i class="fa fa-trash" aria-hidden="true"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="ads_card_des">
+                            <div class="ads_card_des_show" id="f<%= i.id%>" style="display:block">
+                                <h3>Brand : <span><%= i.brand%></span></h3>
+                                <h3>Title : <span><%= i.title%></span></h3>
+                                <h3>Category : <span><%= i.category%></span></h3>
+                                <h3>Description : <span><%= i.description%></span></h3>
+                                <h3>Price : <span><%= i.price%></span></h3>
+                            </div>
+                            <div class="ads_card_des_hide" id="<%= i.id%>" style="display:none">
+                                <form method="POST" action="/ads/editAds/?id=<%= i._id%>">
+                                    <h3>Brand : <input type="text" value="<%= i.brand%>" name="brand" size="19" required></h3>
+                                    <h3>Title : <input type="text" value="<%= i.title%>" name="title" size="21" required></h3>
+                                    <h3>Category : <select name="coption" width="fit-content">
+                                        <option value="OTHER">Choose a Category</option>
+                                        <option value="CARS">CAR</option>
+                                        <option value="MOBILES">MOBILE</option>
+                                        <option value="FURNITURE">FURNITURE</option>
+                                        <option value="FASHION">FASHION</option>
+                                        <option value="BIKES">BIKE</option>
+                                        <option value="SHOES">SHOES</option>
+                                        <option value="TOYS">TOYS</option>
+                                        <option value="BOOKS & SPORTS">BOOKS & SPORTS</option>
+                                        <option value="ELECTRONICS">ELECTRONICS</option>
+                                        <option value="APPLIANCES">APPLIANCES</option>
+                                        <option value="COMMERICL VEHICLES">COMMERICL VEHICLES</option>
+                                        <option value="SPARES">SPARES</option>
+                                        <option value="OTHER">Other</option>
+                                    </select></h3>
+                                    <h3>Description :</h3><textarea type="text" name="description" cols="27" required><%= i.description %></textarea>
+                                    <h3>Price : <input type="number" name="price" min=0 value="<%= i.price %>" required> </h3>
+                                    <button style="background-color: greenyellow; padding: 5px; float:right; margin: 5px;">Save</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                <%}%>
+            </div>
+            <div><%- include('_sellblock') %></div>
+        </div>
+    </div>
+        <!--------------Footer ------------------------------------------------------------------------------------>
+        <div><%- include('_footer') %></div>
+    </div>
+        <script>
+            function hidden_data(id){
+                document.getElementById(id).style.display="block"; //this will show modification div box
+                document.getElementById('f'+id).style.display="none";// this will hide the div box
+            }
+        </script>  
+        <script>
+            <% if(flash.success && flash.success.length > 0 ){ %> 
+                 new Noty({
+                     theme:'relax',
+                     text:"<%= flash.success %>",
+                     type:'success',
+                     layout:"topRight",
+                     timeout:1500
+                 }).show();
+            <% } %> 
+            <% if(flash.error && flash.error.length > 0 ){ %> 
+                 new Noty({
+                     theme:'relax',
+                     text:"<%= flash.error %>",
+                     type:'error',
+                     layout:"topRight",
+                     timeout:1500
+                 }).show();
+            <% } %> 
+         </script>      
+    </body>
+</html>

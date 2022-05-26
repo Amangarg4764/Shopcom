@@ -1,0 +1,32 @@
+<!--ALL DISPLAY ITEM AND PRODUCT ON PAGE-->
+<link rel="stylesheet" href="<%= assestPath('css/shopcombucket.css') %>">
+<div id="Card">
+    <div id="imgCard">
+        <img src="<%= i.image%>">
+    </div>
+    <div id="descCard">
+        <div id="subdesc">
+            <div class="subdescOne">
+                <h1><%= i.brand%></h1>
+                <h2><%= i.title%></h2>
+                <h2><%= i.category%></h2>
+                <p><%= i.description%></p>
+            </div>
+            <div  class="subdescTwo">
+                <a href="/cart/addtocart/?id=<%= i._id %>"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                <br>
+                <div id="l<%=i._id%>">
+                    <a id="s<%=i._id%>" href="/likes/toggle/?_id=<%= i._id %>&type=itemsdetails" onclick='like("<%= i._id %>");'><i id="like<%=i._id%>" class="fa-solid fa-heart helo"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="maindesc">
+            <div><h3>Rs. <%= i.price%></h3></div>
+            <div>
+                <a href="#"></a><div class="btnBuy">Buy</div></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="<%= assestPath('javascript/like.js') %>"></script>

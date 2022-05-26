@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopcom</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" integrity="sha512-0p3K0H3S6Q4bEWZ/WmC94Tgit2ular2/n0ESdfEX8l172YyQj8re1Wu9s/HT9T/T2osUw5Gx/6pAZNk3UKbESw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js" integrity="sha512-lOrm9FgT1LKOJRUXF3tp6QaMorJftUjowOWiDcG5GFZ/q7ukof19V0HKx/GWzXCdt9zYju3/KhBNdCLzK8b90Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="styleSheet" href="<%= assestPath('css/cartpage.css') %>">
+
+    </head>
+    <body>
+        <div id="all">
+        <div><%- include('_navbar')%></div>
+        <div><% var tp=0 %>
+        <div id="displayAllCard">
+            <div id="CardIn">
+            <% for(i of cart){ %>
+                    <div id="Card">
+                        <div id="imgCard">
+                            <img src="<%= i.image%>">
+                        </div>
+                        <div id="descCard">
+                            <div id="subdesc">
+                                <div class="subdescOne">
+                                    <h3><%= i.brand%></h3>
+                                    <h3><%= i.title%></h3>
+                                    <h4><%= i.category%></h4>
+                                    <p><%= i.description%></p>
+                                    <h3 style="float:right; bottom: 5px;">Rs. <%= i.price%><% tp=tp+i.price %></h3>
+                                </div>
+                                <div  class="subdescTwo">
+                                        <a href="/cart/addtocarttodelete/?id=<%= i._id %>"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+            <% } %>
+        </div>
+        </div>
+    </div>
+    <div>
+        <div id="total">
+            <% if(totalItem!=0) {%>
+            <div>
+                <h1>Total Items (<%= totalItem%>)</h1>
+            </div>
+            <div>
+                <h2>Total Price : Rs <%= tp %></h2>
+            </div>
+            <div>
+                <a href="#"><div style="padding:5px; background-color:rgb(11, 245, 11); color:white; cursor: pointer;"><h2>BUY</h2></div></a>
+            </div>
+            <% }else{ %>
+                <div>
+                    <h1>No Item in the Cart.</h1>
+                </div>
+                <%}%>
+        </div>
+            <!--------------Footer ------------------------------------------------------------------------------------>
+        
+            <%- include('_footer') %>
+        </div>
+        </div>
+        <script>
+            <% if(flash.success && flash.success.length > 0 ){ %> 
+                 new Noty({
+                     theme:'relax',
+                     text:"<%= flash.success %>",
+                     type:'success',
+                     layout:"topRight",
+                     timeout:1500
+                 }).show();
+            <% } %> 
+            <% if(flash.error && flash.error.length > 0 ){ %> 
+                  new Noty({
+                      theme:'relax',
+                      text:"<%= flash.error %>",
+                      type:'error',
+                      layout:"topRight",
+                      timeout:1500
+                  }).show();
+             <% } %> 
+        </script>
+    </body>
+</html>

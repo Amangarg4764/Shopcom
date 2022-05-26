@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Shopcom</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" integrity="sha512-0p3K0H3S6Q4bEWZ/WmC94Tgit2ular2/n0ESdfEX8l172YyQj8re1Wu9s/HT9T/T2osUw5Gx/6pAZNk3UKbESw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js" integrity="sha512-lOrm9FgT1LKOJRUXF3tp6QaMorJftUjowOWiDcG5GFZ/q7ukof19V0HKx/GWzXCdt9zYju3/KhBNdCLzK8b90Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <style>
+            #all{
+                width: 100%;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: space-between;
+            }
+            #profile{
+                margin: 2rem 5rem;
+                
+            }
+            #dispro{
+                margin: 2rem 4rem;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-end;
+            }
+            #dispro div img{
+                border-radius: 50%;
+                width: 100%;
+                height: 100%;
+            }
+            .one{
+                width: 18%;
+                height: 18%;
+            }
+            .two{
+                width: 70%;
+                height: 70%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="all">
+            <div>
+                <%- include('_navbar')%>
+                <div id="profile">
+                        <div><h1>Profile Details</h1></div>
+                        <div id="dispro">
+                            <div class="one">
+                                <img src="<%= user.userimage %>">
+                            </div>
+                            <div class="two">
+                                <h2>User Email</h2><%= user.email %><br>
+                                <h2>Username</h2><%= user.name %><br>
+                                
+                            </div>
+                            
+                        </div>
+                </div>
+            </div>
+            
+            <!--------------Footer ------------------------------------------------------------------------------------>
+            <div><%- include('_footer') %></div>
+        </div>
+    <script>
+        <% if(flash.success && flash.success.length > 0 ){ %> 
+             new Noty({
+                 theme:'relax',
+                 text:"<%= flash.success %>",
+                 type:'success',
+                 layout:"topRight",
+                 timeout:1500
+             }).show();
+        <% } %> 
+        <% if(flash.error && flash.error.length > 0 ){ %> 
+              new Noty({
+                  theme:'relax',
+                  text:"<%= flash.error %>",
+                  type:'error',
+                  layout:"topRight",
+                  timeout:1500
+              }).show();
+         <% } %> </script>
+    </body>
+</html>

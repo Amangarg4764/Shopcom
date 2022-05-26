@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital@1&display=swap');
+#Card{
+    width: 50vw;
+    
+    height: fit-content;
+    display: flex;
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+    margin-bottom: 5vh;
+    
+}
+#imgCard{
+    padding: 1vh 1vw;
+    width: 16vw;
+    height: 100%;
+}
+#imgCard img{
+    width: 100%;
+    height: 100%;
+}
+#descCard{
+    padding: 1.5vh 1vw;
+    width: 30vw;
+
+    height: fit-content;
+    font-family: 'Tinos', serif;
+}
+#subdesc{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.subdescOne{
+    height: 100%;
+    width: 85%;
+    
+}
+.subdescTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subdescTwo a{
+    text-decoration: none;
+}
+.subdescTwo a i{
+    font-size: xx-large;
+    color:rgb(240, 15, 60);
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+.subdescOne *{
+    padding: 1.5px;
+}
+.subdescOne p{
+    font-size: 1.2rem;
+}
+.maindesc{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 4vh 1vw 2vh;
+}
+.btnBuy{
+    padding: 5px 12px;
+    background-color: rgb(255, 162, 33);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.btnBuy:hover{
+    background-color: rgb(255, 238, 0);
+}
+.subdescTwo .helo{
+    background-color:white; 
+    color:lavender;
+}
+.subdescTwo .active{
+    background-color: lavender;
+    color:red;
+}
