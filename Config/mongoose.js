@@ -1,6 +1,8 @@
 const mongoose=require('mongoose');
 const env=require('./Enviroment');
-mongoose.connect(`mongodb://localhost:27017/${env.db}`);
+
+
+mongoose.connect(process.env.SHOPCOM_db || env.db);
 
 const db=mongoose.connection
 

@@ -1,4 +1,4 @@
-const port=8000;
+const port=8000 || process.env.PORT;
 const express=require('express');
 const app=express();
 require('./Config/helper_assests')(app);
@@ -31,7 +31,7 @@ app.use(session({
         maxAge : (24*7 * 10 * 100 * 100)
     },
     store : MongoStore.create({
-        mongoUrl:'mongodb://localhost:27017/Shopcom',
+        mongoUrl:process.env.SHOPCOM_db || env.db,
         mongooseConnect : database,
         autoRemove : 'disable'
     })
@@ -57,3 +57,4 @@ app.listen(port,function(err){
     }
     console.log("server is runuing at port no: ",port);
 });
+

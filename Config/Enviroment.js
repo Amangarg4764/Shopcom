@@ -15,7 +15,7 @@ const accesslogStream=rfs.createStream('access.log',{
 const development={
     name:"DeveloperMode",
     sessionSecret:"#cD234",
-    db:"Shopcom",
+    db:"mongodb://127.0.0.1:27017/Shopcom",
     mailerSecretuser:"amangarg4764102@gmail.com",
     mailerSecretpass:"Amangarg102#$",
     googleclient:"352736610955-a64l86hu08sf418ro9hu1ptb7vj60e3t.apps.googleusercontent.com",

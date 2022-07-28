@@ -4,3 +4,50 @@
 ::1 - - [26/May/2022:08:41:31 +0000] "GET /user/auth/google/callback?code=4%2F0AX4XfWhxPTTg6Uvijac2EJDfJMBz9QsJY5xXnxiJipdzzByBzP91sd1IusPgCCqbiEqYug&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&hd=chitkara.edu.in&prompt=none HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
 ::1 - - [26/May/2022:08:41:31 +0000] "GET / HTTP/1.1" 302 68 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
 ::1 - - [26/May/2022:08:41:31 +0000] "GET /shopcomPage HTTP/1.1" 200 28289 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+::1 - - [27/May/2022:07:04:06 +0000] "GET / HTTP/1.1" 200 140184 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36"
+::1 - - [27/May/2022:07:04:07 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36"
+::1 - - [27/May/2022:07:04:09 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36"
+::1 - - [27/May/2022:07:04:11 +0000] "GET /user/auth/google/callback?code=4%2F0AX4XfWhxBEb_P1_UI4zmzcqJ5BD5cyEwHcsCdoC0rAfNPWUY_-t9JiQHh7hD5f6niBOJug&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=chitkara.edu.in&prompt=none HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36"
+::1 - - [27/May/2022:07:04:11 +0000] "GET / HTTP/1.1" 302 68 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36"
+::1 - - [27/May/2022:07:04:11 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36"
+::1 - - [27/May/2022:07:14:31 +0000] "GET /profile HTTP/1.1" 304 - "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36"
+::1 - - [27/May/2022:07:29:26 +0000] "GET /shopcomPage HTTP/1.1" 200 28017 "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36"
+::1 - - [30/Jun/2022:02:28:57 +0000] "GET / HTTP/1.1" 200 140184 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+::1 - - [30/Jun/2022:02:28:58 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+::1 - - [30/Jun/2022:02:29:12 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+::1 - - [30/Jun/2022:02:29:14 +0000] "GET /user/auth/google/callback?code=4%2F0AX4XfWgbuboMsHBnaq_X9rvFOlEIVCa-iz6fz8F3Ee1bLnjJ4a-PVC7jgAp8PPHvl9KFpw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+::1 - - [30/Jun/2022:02:29:14 +0000] "GET / HTTP/1.1" 302 68 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+::1 - - [30/Jun/2022:02:29:14 +0000] "GET /shopcomPage HTTP/1.1" 200 36373 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+::1 - - [30/Jun/2022:02:29:43 +0000] "GET /sellBucket HTTP/1.1" 200 3625 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+::1 - - [30/Jun/2022:02:29:53 +0000] "GET /ads HTTP/1.1" 200 5382 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+::1 - - [30/Jun/2022:02:29:59 +0000] "GET /cart HTTP/1.1" 200 8367 "http://localhost:8000/ads" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+::1 - - [30/Jun/2022:02:30:12 +0000] "GET /profile HTTP/1.1" 200 6020 "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+::1 - - [30/Jun/2022:02:30:19 +0000] "GET /help HTTP/1.1" 200 5828 "http://localhost:8000/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+::1 - - [30/Jun/2022:02:30:22 +0000] "GET /signout HTTP/1.1" 302 46 "http://localhost:8000/help" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+::1 - - [30/Jun/2022:02:30:22 +0000] "GET / HTTP/1.1" 200 140471 "http://localhost:8000/help" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+[0mGET / [32m200[0m 53.157 ms - 140160[0m
+[0mGET /favicon.ico [33m404[0m 6.340 ms - 150[0m
+[0mGET /user/auth/google [36m302[0m 3.553 ms - 0[0m
+[0mPOST /signin [36m302[0m 17.720 ms - 46[0m
+[0mGET / [32m200[0m 14.505 ms - 140447[0m
+[0mGET /signup [32m200[0m 11.364 ms - 141402[0m
+[0mPOST /adduser [36m302[0m 56.644 ms - 46[0m
+[0mGET / [32m200[0m 7.024 ms - 140431[0m
+[0mPOST /signin [36m302[0m 12.674 ms - 68[0m
+[0mGET /shopcomPage [32m200[0m 22.841 ms - 10215[0m
+[0mGET /ads [32m200[0m 17.272 ms - 5324[0m
+[0mGET /shopcomPage [32m200[0m 13.253 ms - 9946[0m
+[0mGET /cart [32m200[0m 37.806 ms - 4632[0m
+[0mGET /shopcomPage [36m304[0m 13.174 ms - -[0m
+::1 - - [28/Jul/2022:04:09:51 +0000] "GET /shopcomPage HTTP/1.1" 302 46 "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+::1 - - [28/Jul/2022:04:09:51 +0000] "GET / HTTP/1.1" 200 140184 "http://localhost:8000/cart" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+::1 - - [28/Jul/2022:04:10:10 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+::1 - - [28/Jul/2022:04:12:03 +0000] "GET /user/auth/google/callback?code=4%2F0AdQt8qj44k01SL3ADKpNO5JTKNrT4rsSfRmkOrAvSqXH7kWBJHo5YkG-F9m0Q-XdvEkkkg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&hd=chitkara.edu.in&prompt=none HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+::1 - - [28/Jul/2022:04:12:03 +0000] "GET / HTTP/1.1" 302 68 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+::1 - - [28/Jul/2022:04:12:03 +0000] "GET /shopcomPage HTTP/1.1" 200 10290 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+::1 - - [28/Jul/2022:04:12:09 +0000] "GET /signout HTTP/1.1" 302 46 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+::1 - - [28/Jul/2022:04:12:09 +0000] "GET / HTTP/1.1" 200 140471 "http://localhost:8000/shopcomPage" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+::1 - - [28/Jul/2022:04:12:13 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+::1 - - [28/Jul/2022:04:12:14 +0000] "GET /user/auth/google/callback?code=4%2F0AdQt8qikXavCG3Nk203PsGFW_eRcT_my2jzmeXKzA-oDsbkg6NTrBH7I47_-dEvqnByYZA&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&hd=chitkara.edu.in&prompt=none HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+::1 - - [28/Jul/2022:04:12:14 +0000] "GET / HTTP/1.1" 302 68 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+::1 - - [28/Jul/2022:04:12:14 +0000] "GET /shopcomPage HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
