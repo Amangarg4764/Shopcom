@@ -1,4 +1,4 @@
-# Quiz Platform
+# Ecommerce Website Platform
 * make a ONLINE SELL / BUY Product using node js
 
 # How To Run
