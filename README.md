@@ -6,6 +6,7 @@
 * Clone, Fork or donwload the repositry from the terminal.
 * Open in VS Code or Atom.
 * Run Command npm install.
+* Run Redis server By writting command(redis-server)
 * Run Command npm start
 * Open in your browser and go to (https://localhost:8000)
 * I already deployed it at heroku (https://shopcom24.herokuapp.com/)
