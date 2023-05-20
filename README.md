@@ -9,7 +9,7 @@
 * Run Redis server By writting command(redis-server)
 * Run Command npm start
 * Open in your browser and go to (https://localhost:8000)
-* I already deployed it at heroku (https://shopcom24.herokuapp.com/)
+
 
 # Features
 * Adding your Account with GOOGLE AUTHENTICATION.
